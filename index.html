@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300&family=Quintessential&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300&display=swap"
+    rel="stylesheet" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.birds.min.js"></script>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo"> 786 </a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navlist">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="img/RESUME.pdf" class="top-btn">Download CV</a>
+  </header>
+
+  <!-- ------ Home  ------>
+
+  <section class="home" id="home">
+    <div class="home-text">
+      <h3>Hello, I'am</h3>
+      <h1>Mohit Prasad</h1>
+      <h5>A Creative Designer <span>From India</span></h5>
+      <p>
+        I'm creative designer based on India, and I'm very passionate <br />
+        and dedicated to my work.
+      </p>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100054987604198"><i class="bx bxl-facebook"></i></a>
+        <a href="https://github.com/ProgrammerMohit"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohit-prasad-5a80181b7/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.instagram.com/mohituit/"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <a href="#" class="btn">About Me</a>
+    </div>
+
+    <div class="home-img">
+      <img src="img/My project.png" alt="" />
+    </div>
+  </section>
+
+  <!--------- Service----- -->
+  <section class="service">
+    <div class="items">
+      <div class="sub-box">
+        <a href="https://leetcode.com/user6513IK/">
+          <div class="sub-img">
+            <img src="img/leet.png" alt="" />
+          </div>
+        </a>
+
+        <h3>LeetCode</h3>
+        <p>
+          You can view my LeetCode Profile simply click on it and check which types of Questions I have done.
+        </p>
+      </div>
+      <div id="cf-box" class="sub-box">
+
+        <a href="https://codeforces.com/profile/it.20203040">
+          <div class="sub-img">
+            <img id="cf" src="img/codeforces.png" alt="" />
+          </div>
+        </a>
+        <h3>CodeForces</h3>
+        <p>
+          I am a Competitive Programmer at CodeForces click on it and check my rating
+        </p>
+      </div>
+      <div class="sub-box">
+
+        <a href="https://auth.geeksforgeeks.org/user/lqi5jljzj1tiy739dzewmwrmwy9lgqbj3cdrgsi9/profile">
+          <div class="sub-img">
+            <img id="gfg" src="img/gfg.png" alt="" />
+          </div>
+        </a>
+        <h3>GeeksForGeeks</h3>
+        <p>
+          This is the best Computer Science Portal for me check it out once
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------About --- -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/ab.png" alt="" />
+    </div>
+
+    <div class="about-text">
+      <h3>I'm a Designer</h3>
+      <h2>I can Design Anything You Want</h2>
+      <p>
+        Hello there! I'm a web designer, and I'm very passionate and dedicated
+        to my work. with 1 year experience as a professional web developer, I
+        have aquired the skills and knowledge neccessary to make your project
+        a success. I enjoy every step of the design process, from discussion
+        and collaboration.
+      </p>
+      <a href="#" id="btnh" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!----- Portfolio----- -->
+  <section class="portfolio" id="portfolio">
+    <div class="heading">
+      <h3>Portfolio</h3>
+      <h2>My Works</h2>
+      <p>These are my some Internships & Workshops Certificates
+      </p>
+    </div>
+    <div class="slide-container">
+
+      <div class="mySlides">
+        <!-- <div class="numtext">1/4</div> -->
+        <img src="img/i1.jpg" style="width:100%">
+        <!-- <div class="text">Caption Text</div> -->
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numtext">2/4</div> -->
+        <img src="img/AI.jpg" style="width:100%">
+        <!-- <div class="text">Caption Text</div> -->
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numtext">3/4</div> -->
+        <img src="img/google.jpg" style="width: 100%">
+        <!-- <div class="text">Caption Text</div> -->
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numtext">4/4</div> -->
+        <img src="img/snack.jpg" style="width:100%">
+        <!-- <div class="text">Caption Text</div> -->
+      </div>
+
+      <!-- Adding Next and Previuos -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- adding dots -->
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <!--  -->
+    <!-- <div class="portfolio-content"> -->
+    <!-- <div class="col">
+        <img src="img/work1.jpg" alt="">
+        <div class="layer">
+          <h3>Web Design</h3>
+          <h5>Popup</h5>
+        </div>
+      </div>
+
+      <div class="col">
+        <img src="img/work2.jpg" alt="">
+        <div class="layer">
+          <h3>Web Design</h3>
+          <h5>Popup</h5>
+        </div>
+      </div>
+
+      <div class="col">
+        <img src="img/work3.jpg" alt="">
+        <div class="layer">
+          <h3>Web Design</h3>
+          <h5>Popup</h5>
+        </div>
+      </div>
+      
+      <div class="col">
+        <img src="img/work4.jpg" alt="">
+        <div class="layer">
+          <h3>Web Design</h3>
+          <h5>Popup</h5>
+        </div>
+      </div> -->
+    <!-- </div> -->
+  </section>
+
+
+  <!-- Services------ -->
+  <section class="service" id="service">
+    <div class="heading">
+      <h3>Service</h3>
+      <h2>What I do For Client</h2>
+      <p>These are my services that I provide you, If you want any of these services you can easily contact me through
+        my social network.
+        <br>
+        The Customers are fully satisfied with my work.
+        <br>
+      <p id="cl">Can you be my next Client ? </p>
+      </p>
+    </div>
+
+    <div class="service-content">
+      <div class="row">
+        <div class="s s-one">
+          <img src="img/wweb.png" alt="">
+        </div>
+        <h3>Web Design</h3>
+        <h5>Starts From <span style="color: rgb(3, 50, 95);">$99</span></h5>
+        <p>Web design refers to the design of websites that are displayed
+          on the internet. It usually refers to the user experience aspect of
+          Website development.
+        </p>
+      </div>
+
+      <div class="row2">
+        <div class="s s-tow">
+          <img src="img/coding.png" alt="">
+        </div>
+        <h3>Software Services</h3>
+        <h5>Starts From <span style="color: rgb(3,50,95)">$6.30</span></h5>
+        <p id="ct">You can contact me if your Software get Corrupted or Expired.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="s s-three">
+          <img src="img/ux-interface.png" alt="">
+        </div>
+        <h3>UI Design</h3>
+        <h5>Starts From <span style="color: rgb(3,50,95)">$89</span></h5>
+        <p>I will give the most satisfaction design to the Customers which feels them Happy.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="s s-fourth">
+          <img src="img/decision-making.png" alt="">
+        </div>
+        <h3>Private Consultant</h3>
+        <h5>Starts From <span style="color: rgb(3,50,95)">$120</span></h5>
+        <p>If you want to know which domain you want to choose & which field is most suitable for you contact me via
+          mail.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="cta">
+    <div class="skills-header">
+      <h1>Skills</h1>
+    </div>
+
+
+    <div id="lbox" class="skill-box">
+      <div class="skill-title">
+        <div class="skill-img">
+          <img src="img/c++.png" alt=""
+            class="skills-icons">
+        </div>
+        <h3>C++</h3>
+      </div>
+    </div>
+
+    <div id="dsabox" class="skill-box">
+      <div class="skill-title">
+        <div class="skill-img">
+          <img src="img/dsa.png" alt=""
+            class="skills-icons">
+        </div>
+        <h3>Data Structure & Algorithms</h3>
+      </div>
+    </div>
+
+
+    <div class="skill-container">
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png" alt=""
+              class="skills-icons">
+          </div>
+          <h3>HTML 5</h3>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt="" class="skills-icons">
+          </div>
+          <h3>CSS3</h3>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="img/js.svg" alt="" class="skills-icons">
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img
+              src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png"
+              alt="" class="skills-icons">
+          </div>
+          <h3>NodeJs</h3>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png" alt=""
+              class="skills-icons">
+          </div>
+          <h3>ReactJs</h3>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- <div class="heading">
+      <h2>Completed 10+ Projects <br> Successfully</h2>
+    </div>
+
+    <div class="cta-box">
+      <div class="wrap one">
+        <h3>10+</h3>
+        <p>Finished Projects</p>
+      </div>
+
+      <div class="wrap tow">
+        <h3>100+</h3>
+        <p>Happy Customers</p>
+      </div>
+
+      <div class="wrap three">
+        <h3>15k</h3>
+        <p>Global Customers</p>
+      </div>
+
+    </div> -->
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="center">
+        <h3>Let's talk about everything</h3>
+        <p>Write Down your email & Ask your Queries</p>
+      </div>
+
+      <div class="action">
+        <form action="connect.php" method="post">
+          <input id="em" type="email" name="email" placeholder="Enter Your email">
+          <!-- <textarea placeholder="Type Something here..." required name="areatext" name="textarea"></textarea> -->
+          <!-- <input id="sbtn" type="button" name="submit" value="Submit"> -->
+          <button id="submit-btn" >Submit</button>
+        </form>
+      </div>
+    </div>
+<!-- 
+    <script>
+      const textarea = document.querySelector("textarea");
+      textarea.addEventListener("keyup", e =>{
+         let scHeight = e.target.scrollHeight;
+         textarea.style.height = "59px";
+         textarea.style.height = `${scHeight}`;
+      });
+   </script> -->
+  </section>
+
+  <!-- Ends -->
+  <div class="ends">
+    <p>Made with love by Mohit Prasad © 2022</p>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Javasript -->
+  <script src="index.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
