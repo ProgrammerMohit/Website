@@ -856,6 +856,7 @@ textarea::-webkit-scrollbar{
   }
   .home {
     min-height: 80vh;
+    min-width:52vh;
   }
   .navlist {
     position: absolute;
